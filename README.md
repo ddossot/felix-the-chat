@@ -30,17 +30,17 @@ NB. these problems seem more UI related and not related to the base chat classes
 ## Version history:
 
 <pre>
-   [1.1]   First official release                                    (03-nov-2001)
-   [1.2]   ui.Client : Improvement of chat board refreshment         (07-nov-2001)
-           ChatServer: {$hostPort} command line argument added
-           Chatclient: Host port parameter added on the constructor
-   [1.2.1] (not released)
-   [1.2.2] ChatServer: Server shutdown implemented                   (17-Dec-2001)
-           ui.Client : No applet sound in Swing GUI implemented
-   [1.2.3] ui.Client : Chat board reset button implemented           (04-feb-2002)
-                       Improvement of chat board refreshment (again...)
-   [2.0.2] ChatServer/ChatClient:                                    (03-nov-2001)
-                       Fully disconnected, ie sockets are opened/closed on each call, reducing the impact of network problems.
-                       NB. You can not use a previous client with this new version of the server.
-           ui.Client : Now supports custom emoticons
+[1.1]   First official release                                    (03-nov-2001)
+[1.2]   ui.Client : Improvement of chat board refreshment         (07-nov-2001)
+        ChatServer: {$hostPort} command line argument added
+        Chatclient: Host port parameter added on the constructor
+[1.2.1] (not released)
+[1.2.2] ChatServer: Server shutdown implemented                   (17-Dec-2001)
+        ui.Client : No applet sound in Swing GUI implemented
+[1.2.3] ui.Client : Chat board reset button implemented           (04-feb-2002)
+                    Improvement of chat board refreshment (again...)
+[2.0.2] ChatServer/ChatClient:                                    (03-nov-2001)
+                    Fully disconnected, ie sockets are opened/closed on each call, reducing the impact of network problems.
+                    NB. You can not use a previous client with this new version of the server.
+        ui.Client : Now supports custom emoticons
 </pre>
