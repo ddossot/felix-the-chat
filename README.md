@@ -20,14 +20,14 @@ Starting the GUI client (JDK1.1): `java -cp FelixTheChat.jar net.dossot.felix.ui
 
 > The optional parameter `-noAppletSounds` forces the proposed UI client to use system beeps for incoming messages (recommended on NT and on any platform where applet sounds steal the sound resources).
 
-## Known problems of the current version:
+## Known problems
 
-    On NT4, the sound resources are stolen by Java, therefore not available for the other applications. Possible cure: write your own sound access DLL in JNI, or start the client with -noAppletSounds option.
-    The list of users sometimes displays a long list of CRLF instead of one user name (serialization problem ?)
+- On NT4, the sound resources are stolen by Java, therefore not available for the other applications. Possible cure: write your own sound access DLL in JNI, or start the client with -noAppletSounds option.
+- The list of users sometimes displays a long list of CRLF instead of one user name (serialization problem ?)
 
 NB. these problems seem more UI related and not related to the base chat classes. Bear in mind that the UI class is a proposed basic one: you are kindly invited to create your own one!
 
-## Version history:
+## Version history
 
 <pre>
 [1.1]   First official release                                    (03-nov-2001)
