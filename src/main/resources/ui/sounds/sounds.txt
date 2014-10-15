@@ -1,0 +1,2 @@
+Rename any sound you want to (de)activate.
+To disable all sounds, use the check box from the GUI.
