@@ -14,9 +14,9 @@ Starting the server: `java -cp felix-2.0.2.jar net.dossot.felix.ChatServer {$por
 
 > The optional parameter `-shutdown` sends an internal shutdown request to the server designated by its `$host`.
 
-Starting the GUI client (JDK1.2): `java -jar FelixTheChat.jar {$userName} {$hostNameOrIP} {$port} {-noAppletSounds}`
+Starting the GUI client (JDK1.2): `java -jar felix-2.0.2.jar {$userName} {$hostNameOrIP} {$port} {-noAppletSounds}`
 
-Starting the GUI client (JDK1.1): `java -cp FelixTheChat.jar net.dossot.felix.ui.Client {$userName} {$hostNameOrIP} {$port} {-noAppletSounds}`
+Starting the GUI client (JDK1.1): `java -cp felix-2.0.2.jar net.dossot.felix.ui.Client {$userName} {$hostNameOrIP} {$port} {-noAppletSounds}`
 
 > The optional parameter `-noAppletSounds` forces the proposed UI client to use system beeps for incoming messages (recommended on NT and on any platform where applet sounds steal the sound resources).
 
